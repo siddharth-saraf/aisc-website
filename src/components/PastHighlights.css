@@ -1,0 +1,116 @@
+.past-highlights {
+  background: url('https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/aisc%20davis%20what%20we%20offer%20cube%20bg.png?v=2024-01-08T05:40:29.141Z') right center / cover;
+  padding: 7.75rem 10rem 9.25rem 10rem;
+  text-align: center;
+  color: var(--light-text);
+}
+
+.highlights-title {
+  color: var(--light-text);
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.highlights-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.highlight-card {
+  width: 300px;
+  max-width: 300px;
+  margin: 0 1.5rem 1.5rem 0;
+}
+
+.highlight-card:last-child {
+  margin-right: 0;
+}
+
+.highlight-image-container {
+  margin: -20px 0 0 0;
+}
+
+.highlight-image {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  filter: grayscale(100%);
+}
+
+.highlight-content {
+  padding: 3rem 0 0 0;
+}
+
+.highlight-event-title {
+  color: var(--light-blue);
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.highlight-date {
+  color: var(--light-text);
+  font-size: 1.125rem;
+  font-weight: 200;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.highlight-description {
+  color: #EDF2F6;
+  font-size: 1.125rem;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .past-highlights {
+    padding: 5.25rem 2.25rem 6.25rem 2.25rem;
+    background: url('https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/aisc%20davis%20what%20we%20offer%20cube%20bg.png?v=2024-01-08T05:40:29.141Z') center / cover;
+  }
+  
+  .highlights-title {
+    margin-bottom: 4rem;
+  }
+  
+  .highlights-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  .highlight-card {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  
+  .highlight-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .highlight-content {
+    padding: 0;
+  }
+  
+  .highlight-event-title {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .highlight-date {
+    margin: 0 0 0.5rem 0;
+  }
+}

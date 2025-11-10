@@ -1,0 +1,70 @@
+.not-found-page {
+  min-height: 100vh;
+  background-color: var(--light-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5.5rem 0;
+}
+
+.not-found-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-image {
+  margin-bottom: 0.4375rem;
+  max-width: 200px;
+  height: auto;
+}
+
+.error-title {
+  color: var(--dark-text);
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0 0 1.5rem 0;
+}
+
+.error-description {
+  color: var(--grey, #6F839F);
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  width: 40%;
+  margin: 0 0 2.5rem 0;
+  text-align: center;
+}
+
+.home-button {
+  background-color: var(--dark-text);
+  color: var(--light-text);
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  display: inline-block;
+}
+
+.home-button:hover {
+  background-color: #0a0f14;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .error-title {
+    font-size: 2.625rem;
+  }
+  
+  .error-description {
+    width: 80%;
+    font-size: 1.125rem;
+  }
+}

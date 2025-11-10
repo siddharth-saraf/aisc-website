@@ -1,0 +1,74 @@
+.about-us {
+  background: url('https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/aisc%20website%20about%20us%20bg.png?v=2024-01-08T04:01:51.382Z') center center / cover;
+  padding: 50px 0 150px 0;
+  text-align: center;
+  color: var(--dark-text);
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-content {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.about-title {
+  color: var(--light-text);
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin: 0 4rem 2.5rem 4rem;
+  line-height: 1.2;
+}
+
+.about-description {
+  color: #cccccc;
+  font-size: 1.5rem;
+  font-weight: 200;
+  max-width: 70%;
+  margin: 0 auto 1rem auto;
+  line-height: 1.5;
+}
+
+.about-image-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
+  width: 700px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .about-us {
+    padding: 48px 0 84px 0;
+  }
+  
+  .about-content {
+    padding: 0 2.25rem;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    margin: 0 0 2.5rem 0;
+  }
+  
+  .about-description {
+    font-size: 1.25rem;
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  .about-image {
+    width: 100%;
+    padding: 1.5rem 0 0 0;
+  }
+}

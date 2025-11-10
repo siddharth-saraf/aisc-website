@@ -1,0 +1,66 @@
+.our-team-page {
+  background-color: var(--dark-bg);
+  min-height: 100vh;
+  padding: 5.625rem 0 7.5rem 0;
+}
+
+.team-header {
+  text-align: center;
+  margin-bottom: 4.375rem;
+}
+
+.team-title {
+  color: var(--light-text);
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1.5625rem;
+}
+
+.team-subtitle {
+  color: #b2bdc6;
+  font-size: 1.375rem;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .our-team-page {
+    padding: 5.25rem 0 6.25rem 0;
+  }
+  
+  .team-header {
+    margin-bottom: 4rem;
+  }
+  
+  .team-title {
+    font-size: 2.5rem;
+  }
+  
+  .team-subtitle {
+    font-size: 1.25rem;
+    padding: 0 1rem;
+  }
+  
+  .team-grid {
+    gap: 0.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-grid {
+    justify-content: space-between;
+  }
+}

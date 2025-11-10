@@ -1,0 +1,249 @@
+.project-cycles-page {
+  background-color: var(--dark-bg);
+  min-height: 100vh;
+  padding: 5.625rem 0 7.5rem 0;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.page-title {
+  color: var(--light-text);
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--light-blue), var(--accent-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page-subtitle {
+  color: var(--gray-text);
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.section-title {
+  color: var(--light-text);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.program-overview {
+  margin-bottom: 5rem;
+}
+
+.overview-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.overview-description {
+  color: var(--gray-text);
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.overview-description strong {
+  color: var(--light-blue);
+}
+
+.success-metrics {
+  margin-bottom: 5rem;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.metric-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid rgba(81, 183, 255, 0.2);
+}
+
+.metric-number {
+  color: var(--light-blue);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.metric-label {
+  color: var(--light-text);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.teams-showcase {
+  margin-bottom: 5rem;
+}
+
+.showcase-intro {
+  color: var(--gray-text);
+  font-size: 1.125rem;
+  font-weight: 300;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.5;
+}
+
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid var(--light-blue);
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.team-name {
+  color: var(--light-text);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+.team-members {
+  color: var(--light-blue);
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  opacity: 0.8;
+}
+
+.team-description {
+  color: var(--gray-text);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.team-leads-section {
+  margin-bottom: 5rem;
+}
+
+.leads-intro {
+  color: var(--gray-text);
+  font-size: 1.125rem;
+  font-weight: 300;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.5;
+}
+
+.leads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.lead-card {
+  text-align: center;
+}
+
+.lead-image-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1rem auto;
+  border: 2px solid var(--light-blue);
+}
+
+.lead-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.lead-card:hover .lead-image {
+  transform: scale(1.1);
+}
+
+.lead-name {
+  color: var(--light-text);
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .project-cycles-page {
+    padding: 5.25rem 0 6.25rem 0;
+  }
+  
+  .hero-section {
+    margin-bottom: 4rem;
+  }
+  
+  .page-title {
+    font-size: 3rem;
+  }
+  
+  .page-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .teams-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .leads-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .lead-image-container {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .lead-name {
+    font-size: 0.9rem;
+  }
+}

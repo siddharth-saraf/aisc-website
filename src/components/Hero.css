@@ -1,0 +1,62 @@
+.hero {
+  background: #000000 url('https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Davis%20Website%20Hero%20Image.png?v=2023-11-07T21:35:08.566Z') center center / cover no-repeat;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  z-index: 2;
+  padding-bottom: 200px;
+}
+
+.hero-title-line1 {
+  color: var(--light-text);
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero-title-line2 {
+  color: var(--light-text);
+  font-size: 3rem;
+  font-weight: 200;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  color: var(--light-blue);
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 700px;
+    background-position: 50% 0%;
+    padding: 0;
+  }
+  
+  .hero-content {
+    padding-bottom: 164px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .hero-title-line1,
+  .hero-title-line2 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    padding: 0 3rem;
+  }
+}
