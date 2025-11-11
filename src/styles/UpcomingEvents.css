@@ -110,13 +110,6 @@
     justify-content: space-between;
   }
   
-  .event-card {
-    width: 132px;
-    min-width: 132px;
-    max-width: 132px;
-    margin: 0 1rem 3rem 0;
-  }
-  
   .event-card:nth-child(2n) {
     margin-right: 0;
   }
