@@ -13,7 +13,7 @@ const UpcomingEvents = () => {
     },
     {
       id: 2,
-      title: "Demo Day",
+      title: "Project Cycles Demo Day",
       date: "Thurs, 11/20",
       time: "6:00-8:00pm",
       location: "TBD"
