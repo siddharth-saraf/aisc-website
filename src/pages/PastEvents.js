@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import './PastEvents.css';
+import '../styles/PastEvents.css';
 
 const PastEvents = () => {
   const quarters = [

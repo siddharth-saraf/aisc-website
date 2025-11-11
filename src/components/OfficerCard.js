@@ -1,5 +1,5 @@
 import React from 'react';
-import './OfficerCard.css';
+import '../styles/OfficerCard.css';
 
 const OfficerCard = ({ member }) => {
   return (

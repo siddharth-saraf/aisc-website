@@ -1,28 +1,38 @@
 import React from 'react';
-import './PastHighlights.css';
+import { Link } from 'react-router-dom';
+import '../styles/PastHighlights.css';
 
 const PastHighlights = () => {
   const highlights = [
     {
       id: 1,
-      title: "AI Across Disciplines Symposium",
-      date: "February 2025",
-      image: "https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/acrossbw.png?v=2025-03-24T06:27:58.764Z",
-      description: "The event included live demos, Q&A sessions, food and drinks, plus networking with speakers who are leading innovators discussing AI applications in law, space, defense, business, and digital humanities"
+      title: "Project Cycles Program",
+      date: "April - June 2025 (6 weeks)",
+      image: "/events/spring25/demoday.png",
+      description: "Our flagship program where 15 teams of UW students collaborated in a mentor-guided sprint to build AI agents from idea to deployment. Over 80 builders participated.",
+      hasLink: true,
+      link: "/project-cycles"
     },
     {
       id: 2,
-      title: "AISC UW Kickoff",
-      date: "January 2025",
-      image: "https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/kickoffbw.png?v=2025-03-24T06:14:32.195Z",
-      description: "Our first event where we kicked off providing students with an opportunity to hear from us about our plans as well as presentations with speakers from Microsoft about their experience with AISC and how AI is used in their career"
+      title: "BuildHer x AISC Women in AI",
+      date: "May 2025",
+      image: "/events/spring25/womeninai.jpg",
+      description: "Collaborative event with BuildHer CSeed highlighting female perspectives in AI and promoting diversity in the field. Featured panel discussions and networking."
+    },
+    {
+      id: 3,
+      title: "Industry Night with SPACE",
+      date: "April 2025",
+      image: "/events/spring25/spacenight.png",
+      description: "Partnership event with the Society for Professional Advancement through Career Enhancement, connecting students with industry professionals in AI and tech."
     }
   ];
 
   return (
     <section className="past-highlights">
       <div className="container">
-        <h2 className="highlights-title">Past Highlights</h2>
+        <h2 className="highlights-title">Spring 2025 Highlights</h2>
         <div className="highlights-grid">
           {highlights.map((highlight) => (
             <div key={highlight.id} className="highlight-card">
@@ -37,9 +47,19 @@ const PastHighlights = () => {
                 <h3 className="highlight-event-title">{highlight.title}</h3>
                 <p className="highlight-date">{highlight.date}</p>
                 <p className="highlight-description">{highlight.description}</p>
+                {highlight.hasLink && (
+                  <Link to={highlight.link} className="learn-more-link">
+                    Learn More →
+                  </Link>
+                )}
               </div>
             </div>
           ))}
+        </div>
+        <div className="view-all-container">
+          <Link to="/past-events" className="view-all-link">
+            View All Past Events
+          </Link>
         </div>
       </div>
     </section>

@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import AboutUs from '../components/AboutUs';
 import Pillars from '../components/Pillars';
 import PastHighlights from '../components/PastHighlights';
+import UpcomingEvents from '../components/UpcomingEvents'
 
 const Home = () => {
   return (
@@ -18,7 +19,8 @@ const Home = () => {
         <Hero />
         <AboutUs />
         <Pillars />
-        // CHANGE: <PastHighlights />
+        <UpcomingEvents />
+        <PastHighlights />
       </div>
     </>
   );

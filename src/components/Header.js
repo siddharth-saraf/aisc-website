@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import '../styles/Header.css';
 
 const Header = () => {
   return (
@@ -17,12 +17,14 @@ const Header = () => {
           
           <nav className="nav">
             <a 
-              href="https://humansforai.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="nav-link"
+              href="/partner" className="nav-link"
             >
-              Humans for AI
+              Partner With Us
+            </a>
+            <a 
+              href="/past-events" className="nav-link"
+            >
+              Past Events
             </a>
             <Link to="/our-team" className="nav-link">
               Our Team

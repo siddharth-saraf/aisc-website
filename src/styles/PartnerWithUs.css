@@ -1,0 +1,590 @@
+.partner-page {
+  background-color: var(--dark-bg);
+  min-height: 100vh;
+  padding: 5.625rem 0 4rem 0;
+  color: var(--light-text);
+}
+
+/* Hero Section */
+.partner-hero {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.page-title {
+  color: var(--light-text);
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.hero-description {
+  color: var(--gray-text);
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.hero-description strong {
+  color: var(--light-blue);
+  font-weight: 500;
+}
+
+.hero-cta-button {
+  display: inline-block;
+  background: var(--light-blue);
+  color: var(--dark-text);
+  padding: 1.25rem 3rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.375rem;
+  transition: all 0.3s ease;
+}
+
+.hero-cta-button:hover {
+  background: var(--accent-color);
+  color: var(--light-text);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(81, 183, 255, 0.4);
+}
+
+/* Impact Stats */
+.impact-section {
+  margin-bottom: 6rem;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.impact-stat {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid rgba(81, 183, 255, 0.2);
+}
+
+.impact-number {
+  color: var(--light-blue);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.impact-label {
+  color: var(--light-text);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+/* Section Title */
+.section-title {
+  color: var(--light-text);
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* Partnership Opportunities */
+.opportunities-section {
+  margin-bottom: 6rem;
+}
+
+.opportunities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.opportunity-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2.5rem;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(81, 183, 255, 0.2);
+}
+
+.opportunity-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(81, 183, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.opportunity-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.opportunity-title {
+  color: var(--light-text);
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.opportunity-description {
+  color: var(--gray-text);
+  font-size: 1.0625rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Audience Section */
+.audience-section {
+  margin-bottom: 6rem;
+}
+
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.audience-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 2rem;
+  border-left: 4px solid var(--light-blue);
+}
+
+.audience-card h3 {
+  color: var(--light-blue);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.audience-card p {
+  color: var(--gray-text);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Partners Section */
+.partners-section {
+  margin-bottom: 6rem;
+}
+
+.partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.partner-logo {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--light-text);
+  padding: 1.25rem 2.5rem;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  border: 1px solid rgba(81, 183, 255, 0.2);
+}
+
+/* Final CTA */
+.final-cta {
+  margin-top: 6rem;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, rgba(81, 183, 255, 0.1), rgba(46, 196, 182, 0.1));
+  border-radius: 16px;
+  padding: 4rem 3rem;
+  text-align: center;
+  border: 2px solid rgba(81, 183, 255, 0.3);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-box h2 {
+  color: var(--light-text);
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cta-box p {
+  color: var(--gray-text);
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background: var(--light-blue);
+  color: var(--dark-text);
+  padding: 1.25rem 3rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button:hover {
+  background: var(--accent-color);
+  color: var(--light-text);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(81, 183, 255, 0.4);
+}
+
+.contact-alternative {
+  color: var(--gray-text);
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 1.5rem;
+}
+
+.contact-alternative a {
+  color: var(--light-blue);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-alternative a:hover {
+  color: var(--accent-color);
+}
+
+/* Mobile Responsive */
+@media (max-width: 968px) {
+  .partner-page {
+    padding: 5rem 0 3rem 0;
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.25rem;
+  }
+
+  .hero-cta-button {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .opportunities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .audience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-box {
+    padding: 3rem 2rem;
+  }
+
+  .cta-box h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Hackathon Section */
+.hackathon-section {
+  margin-bottom: 6rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  padding: 4rem 3rem;
+  border: 1px solid rgba(81, 183, 255, 0.2);
+}
+
+.hackathon-badge {
+  float: right;
+  background: var(--light-blue);
+  color: var(--dark-text);
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.hackathon-subtitle {
+  color: var(--gray-text);
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hackathon-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.detail-item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  color: var(--gray-text);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.detail-item strong {
+  color: var(--light-blue);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.hackathon-challenge {
+  background: rgba(81, 183, 255, 0.1);
+  border-left: 4px solid var(--light-blue);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+}
+
+.hackathon-challenge h3 {
+  color: var(--light-text);
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hackathon-challenge p {
+  color: var(--gray-text);
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+/* Tracks */
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.track-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid rgba(81, 183, 255, 0.2);
+}
+
+.track-title {
+  color: var(--light-blue);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.track-tagline {
+  color: var(--light-text);
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.track-description {
+  color: var(--gray-text);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Why Hackathon */
+.hackathon-why h3 {
+  color: var(--light-text);
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.why-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.why-item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.why-item strong {
+  color: var(--light-blue);
+  font-size: 1.125rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.why-item p {
+  color: var(--gray-text);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Sponsorship Tiers */
+.sponsorship-section {
+  margin-bottom: 6rem;
+}
+
+.sponsorship-subtitle {
+  color: var(--gray-text);
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tiers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tier-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2.5rem;
+  border: 1px solid rgba(81, 183, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.tier-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(81, 183, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.tier-icon {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.tier-name {
+  color: var(--light-text);
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.tier-price {
+  color: var(--light-blue);
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tier-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tier-benefits li {
+  color: var(--gray-text);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.tier-benefits li::before {
+  content: "✓";
+  color: var(--light-blue);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Opportunities subtitle */
+.opportunities-subtitle {
+  color: var(--gray-text);
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* Mentorship Section */
+.mentorship-section {
+  margin-bottom: 6rem;
+}
+
+.mentorship-box {
+  background: rgba(46, 196, 182, 0.1);
+  border-left: 4px solid var(--accent-color);
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mentorship-box h2 {
+  color: var(--light-text);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.mentorship-box p {
+  color: var(--gray-text);
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+/* Mobile Updates */
+@media (max-width: 968px) {
+  .hackathon-section {
+    padding: 3rem 2rem;
+  }
+
+  .hackathon-details {
+    grid-template-columns: 1fr;
+  }
+
+  .tracks-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-content {
+    grid-template-columns: 1fr;
+  }
+
+  .tiers-grid {
+    grid-template-columns: 1fr;
+  }
+}
