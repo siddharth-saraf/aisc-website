@@ -4,7 +4,7 @@ import '../styles/UpcomingEvents.css';
 const UpcomingEvents = () => {
   const events = [
     {
-      id: 2,
+      id: 1,
       title: "Sentient Ideathon, Design the Future of AGI: No Code, Just Big Ideas",
       url: "https://luma.com/f2d3usez",
       date: "Mon, 11/17",
@@ -12,11 +12,18 @@ const UpcomingEvents = () => {
       location: "SIG 225"
     },
     {
-      id: 3,
+      id: 2,
       title: "Demo Day",
       date: "Thurs, 11/20",
       time: "6:00-8:00pm",
       location: "TBD"
+    },
+    {
+      id: 3,
+      title: "AI Investment Case Studies: “Why We Invested”",
+      date: "Tue, 12/2",
+      time: "5:30-7:30pm",
+      location: "Anthony's Forum, DEM"
     }
   ];
 
