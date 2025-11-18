@@ -9,7 +9,7 @@ const UpcomingEvents = () => {
       url: "https://luma.com/f2d3usez",
       date: "Mon, 11/17",
       time: "6:00-8:00pm",
-      location: "SIG 225"
+      location: "CONDON 109"
     },
     {
       id: 2,
